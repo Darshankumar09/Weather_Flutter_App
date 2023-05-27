@@ -38,3 +38,7 @@ the weather data in depth for the selected location.
 ## Project Technologies :
 - Dart language
 - Flutter framework with MVC and Provider architecture
+
+## Project Output :
+
+https://github.com/Darshankumar09/Weather_Flutter_App/assets/116517559/e2147c26-7bd5-4599-a4de-255c9ae3491f
