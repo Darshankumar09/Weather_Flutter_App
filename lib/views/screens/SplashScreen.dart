@@ -28,6 +28,7 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Center(
         child: Image.asset("assets/gif/Weather.gif"),
       ),
+      backgroundColor: Colors.white,
     );
   }
 }

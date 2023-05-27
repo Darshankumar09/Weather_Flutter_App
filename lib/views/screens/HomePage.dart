@@ -37,10 +37,22 @@ class _HomePageState extends State<HomePage> {
           body: (Provider.of<ConnectivityProvider>(context).connection.status ==
                   "Waiting")
               ? Center(
-                  child: Image.asset(
-                    "assets/gif/No_Connection.gif",
-                    height: 300,
-                    width: 300,
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Image.asset(
+                        'assets/images/No_Connection.png',
+                        height: 200,
+                        width: 200,
+                      ),
+                      SizedBox(
+                        height: _height * 0.01,
+                      ),
+                      Text(
+                        "No Connection",
+                        style: TextStyle(fontSize: _height * 0.022),
+                      ),
+                    ],
                   ),
                 )
               : FutureBuilder(
